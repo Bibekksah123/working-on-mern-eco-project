@@ -1,0 +1,18 @@
+.cartitems{
+  margin: 100px 170px
+}
+.cartitems hr{
+  height: 3px;
+  border: 1px solid;
+  background: #2e2e2e;
+}
+.cart-item-form{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+  padding: 20px 0px;
+}
+.icons-main-image{
+  height: 60px;
+}

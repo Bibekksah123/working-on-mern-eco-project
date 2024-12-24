@@ -1,0 +1,24 @@
+.descriptioned{
+  margin: 120px 170px;
+}
+.des-nav{
+  display:flex;
+}
+.des-box{
+  margin-bottom: 10px;
+ margin-left: 10px;
+ border: 1px solid gray;
+ padding: 10px 4px;
+ width: 100px;
+ border-radius: 10px;
+ background: #00000000;
+
+}
+.fade{
+  color: red;
+  width: 120px;
+}
+.des-display p{
+  font-size:14px;
+  color: #1c1c1c;
+}

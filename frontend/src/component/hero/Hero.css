@@ -1,0 +1,79 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1fd, #e1ffea 60%);
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  margin-top: 30px 0;
+  padding:20px;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.hero-left h2 {
+  font-size: 32px;
+  font-weight:400;
+  color: #090909;
+}
+
+.hero-left p {
+  font-size:30px;
+  font-weight: 300;
+  color: #171717;
+  margin: 0;
+}
+
+.hero-and-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero-and-icon p{
+  font-size: 45px;
+}
+
+.hero-and-icon img {
+  width: 70px;
+}
+
+.hero-latest-collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 280px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 30px;
+  background: #ff6f61;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.hero-latest-collection p{
+  font-size: 18px;
+}
+.hero-latest-collection:hover {
+  background: #e65c50;
+}
+.hero-right img{
+  width: 450px;
+}
+.hero-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

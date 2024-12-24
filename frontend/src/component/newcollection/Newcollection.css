@@ -1,0 +1,28 @@
+.newcollection{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 200px;
+  height: 90vh;
+}
+.newcollection h1{
+  color: #171717;
+  font-size: 30px;
+  font-weight: 400;
+}
+.newcollection hr{
+  width: 200px;
+  height:2px;
+  background: #000;
+  border-radius:10px;
+}
+.collection{
+  margin-top: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  overflow:none;
+  gap: 30px;
+} 

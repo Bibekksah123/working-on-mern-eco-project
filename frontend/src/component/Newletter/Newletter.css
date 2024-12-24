@@ -1,0 +1,54 @@
+.newletter{
+  width: 65%;
+  height: 45vh;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:0px 140px;
+  background: linear-gradient(180deg, #fde1fd, #e1ffea 60%);
+  margin-bottom: 50px;
+  gap: 30px;
+}
+.newletter h1{
+  color: #171717;
+  font-size: 30px;
+  font-weight: 400;
+}
+.newletter p{
+  font-size: 18px;
+  color: #595659;
+}
+.newletter div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+
+}
+.newletter div input{
+  width: 300px;
+  border: none;
+  outline: 0;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  background: rgb(24, 23, 24);
+}
+.newletter div ::placeholder{
+  font-size:16px;
+  font-family: 300;
+}
+.newletter div button{
+    width: 80px;
+    padding: 6px 4px;
+    flex:1;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    color: white;
+    margin-left: 5px;
+    background: #0f0e0f;
+}
